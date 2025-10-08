@@ -1,4 +1,4 @@
-body{
+,body{
     font-family: "Poppin", sans-serif;
     background-color: #2e3537;
     height: 100vh;
@@ -99,32 +99,36 @@ input {
     left: 1rem;
 }
 #p1{
-    z-index: 9;
+    z-index: 10;
 }
 #p2{
-    z-index: 8;
+    z-index: 9;
 }
 #p3{
-    z-index: 7;
+    z-index: 8;
 }
 #p4{
-    z-index: 6;
+    z-index: 7;
 }
 #p5{
-    z-index: 5;
+    z-index: 6;
 }
 #p6{
-    z-index: 4;
+    z-index: 5;
 }
 #p7{
-    z-index: 3;
+    z-index: 4;
 }
 #p8{
-    z-index: 2;
+    z-index: 3;
 }
 #p9{
+    z-index: 2;
+}
+#p10{
     z-index: 1;
 }
+
 
 
 #checkbox-cover:checked ~ .book {
@@ -178,4 +182,9 @@ input {
 #checkbox-p9:checked ~ .book #p9{
     transform: rotateY(-180deg);
     z-index: 10;
+}
+
+#checkbox-p10:checked ~ .book #p10{
+    transform: rotateY(-180deg);
+    z-index: 11;
 }
