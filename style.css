@@ -99,33 +99,36 @@ input {
     left: 1rem;
 }
 #p1{
-    z-index: 10;
+    z-index: 11;
 }
 #p2{
-    z-index: 9;
+    z-index: 10;
 }
 #p3{
-    z-index: 8;
+    z-index: 9;
 }
 #p4{
-    z-index: 7;
+    z-index: 8;
 }
 #p5{
-    z-index: 6;
+    z-index: 7;
 }
 #p6{
-    z-index: 5;
+    z-index: 6;
 }
 #p7{
-    z-index: 4;
+    z-index: 5;
 }
 #p8{
-    z-index: 3;
+    z-index: 4;
 }
 #p9{
-    z-index: 2;
+    z-index: 3;
 }
 #p10{
+    z-index: 2;
+}
+#p11{
     z-index: 1;
 }
 #checkbox-cover:checked ~ .book {
@@ -184,4 +187,8 @@ input {
 #checkbox-p10:checked ~ .book #p10{
     transform: rotateY(-180deg);
     z-index: 11;
+}
+#checkbox-p11:checked ~ .book #p11{
+    transform: rotateY(-180deg);
+    z-index: 12;
 }
